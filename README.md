@@ -1,5 +1,17 @@
 # Angular 8 JWT Authentication example
 
+## Flow for User Registration and User Login
+For JWT – Token based Authentication with Web API, we’re gonna call 2 endpoints:
+- POST `api/auth/signup` for User Registration
+- POST `api/auth/signin` for User Login
+
+You can take a look at following flow to have an overview of Requests and Responses that Angular 10 Client will make or receive.
+
+![angular-8-jwt-authentication-flow](angular-8-jwt-authentication-flow.png)
+
+## Angular JWT App Diagram with Router and HttpInterceptor
+![angular-8-jwt-authentication-overview](angular-8-jwt-authentication-overview.png)
+
 For more detail, please visit:
 > [Angular 8 JWT Authentication with Web API](https://bezkoder.com/angular-jwt-authentication/)
 
@@ -47,3 +59,28 @@ export class AuthInterceptor implements HttpInterceptor {
 ```
 
 Run `ng serve --port 8081` for a dev server. Navigate to `http://localhost:8081/`.
+
+## More Practice
+
+> [Angular 8 CRUD application example with Web API](https://bezkoder.com/angular-crud-app/)
+
+> [Angular 8 Pagination example | ngx-pagination](https://bezkoder.com/ngx-pagination-angular-8/)
+
+> [Angular 8 Multiple Files upload example](https://bezkoder.com/angular-multiple-files-upload/)
+
+Fullstack with Node.js Express:
+> [Angular 8 + Node.js Express + MySQL](https://bezkoder.com/angular-node-express-mysql/)
+
+> [Angular 8 + Node.js Express + PostgreSQL](https://bezkoder.com/angular-node-express-postgresql/)
+
+> [Angular 8 + Node.js Express + MongoDB](https://bezkoder.com/angular-mongodb-node-express/)
+
+Fullstack with Spring Boot:
+> [Angular 8 + Spring Boot + MySQL](https://bezkoder.com/angular-spring-boot-crud/)
+
+> [Angular 8 + Spring Boot + PostgreSQL](https://bezkoder.com/angular-spring-boot-postgresql/)
+
+> [Angular 8 + Spring Boot + MongoDB](https://bezkoder.com/angular-spring-boot-mongodb/)
+
+Fullstack with Django:
+> [Angular 8 + Django Rest Framework](https://bezkoder.com/django-angular-crud-rest-framework/)
